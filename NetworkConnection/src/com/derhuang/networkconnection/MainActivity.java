@@ -1,3 +1,6 @@
+/**
+ * @author Derek Huang, Bryant Son
+ */
 package com.derhuang.networkconnection;
 
 
@@ -18,7 +21,6 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-	
 	Socket socket;
 	InetAddress sockaddr;
 	String ipAddr = "10.0.1.20";
